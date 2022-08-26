@@ -276,8 +276,16 @@ img {
   gap: 1rem;
 }
 
-.home__img {
-  transform: scale(1.5s);
+.floating {
+  transform: translateY(-10%);
+  animation: floater 10s infinite;
+  transition: ease 0.5s;
+}
+
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
 }
 
 .home__content {
@@ -355,7 +363,24 @@ img {
   font-size: 1.25rem;
 }
 
+/*-------EFEITO ESCREVER -----*/
 
+.titulo-principal:after{
+content: '|';
+margin-left: 5px;
+opacity: 1;
+animation: pisca .7s infinite;
+}
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
 
 
 /*==================== BUTTONS ====================*/
@@ -515,7 +540,7 @@ img {
 }
 
 .skills__html {
-  width: 40%;
+  width: 100%;
 }
 
 .skills__css {
@@ -523,35 +548,35 @@ img {
 }
 
 .skills_js {
-  width: 90%;
+  width: 75%;
 }
 
 .skills__react {
-  width: 90%;
+  width: 60%;
 }
 
 .skills__php {
-  width: 90%;
+  width: 55%;
 }
 
 .skills__node {
-  width: 90%;
+  width: 75%;
 }
 
 .skills__firebase {
-  width: 90%;
+  width: 95%;
 }
 
-.skills__python {
+.skills__sql {
   width: 90%;
 }
 
 .skills__figma {
-  width: 90%;
+  width: 70%;
 }
 
-.skills__sketch {
-  width: 90%;
+.skills__adobe {
+  width: 100%;
 }
 
 .skills__photoshop {
