@@ -260,7 +260,7 @@ img {
   bottom: 0;
 }
 }
-/* Active link */
+
 .active-link {
   color: var(--first-color);
 }
@@ -546,7 +546,7 @@ animation: pisca .7s infinite;
   width: 90%;
 }
 
-.skills_js {
+.skills__js {
   width: 75%;
 }
 
