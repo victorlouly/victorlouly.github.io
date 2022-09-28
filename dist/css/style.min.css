@@ -70,7 +70,7 @@ body{margin:0;font-family:'Poiret One',Helvetica,Georgia;-webkit-touch-callout:n
             color: #ffbc00;
             font-weight: 700;
             font-size: 23px;}.heropick img{width: 32px;
-                float: right;}.heropick .heros{padding:0 20px 10px;height:410px}.heropick .wrapper{cursor:pointer;margin: 0 0 16px 0;padding:16px 10px 20px;display:inline-block;position:relative;width:118px;height:53px;box-sizing:border-box;border-radius:10px}.heropick .wrapper.combo{width:100%}.heropick .wrapper.combo.locked .price{    width: 422px;
+                float: right;}.heropick .heros{padding:0 20px 10px;height:410px}.heropick .wrapper{cursor:pointer;margin: 0 0 16px 0;padding:16px 10px 20px;display:inline-block;position:relative;width:167px;height:53px;box-sizing:border-box;border-radius:10px}.heropick .wrapper.combo{width:100%}.heropick .wrapper.combo.locked .price{    width: 422px;
                     font-size: 20px;
                     margin-left: -39px;}.heropick .wrapper.locked{    background-color: #3498db;
                         color: white;
